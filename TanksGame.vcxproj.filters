@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{5d9ab04a-707d-4151-ac3a-4d710e9f3f57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{c38e23c9-b8ec-4788-bb0a-16abb05e5e2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{b34b4fed-8db0-4357-8b1a-6a7b9bb10ea7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\_Scene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Button.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FirstLaunch.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Game.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Main.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Manager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Menu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Room.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Texture.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Title.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Window.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\_Scene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Button.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FirstLaunch.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Manager.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Menu.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Room.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Texture.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Title.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Window.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\button.png">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="resources\buttonActive.png">
+      <Filter>resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="resources\font.ttf">
+      <Filter>resources</Filter>
+    </Font>
+  </ItemGroup>
+</Project>

@@ -42,8 +42,8 @@ void Texture::drawScaled( int x , int y , double s )
 
 void Texture::loadTextures()
 {
-    Texture::button[0] = new Texture("button.png");
-    Texture::button[1] = new Texture("buttonActive.png");
+    Texture::button[0] = new Texture("resources/button.png");
+    Texture::button[1] = new Texture("resources/buttonActive.png");
 }
 
 void Texture::freeTextures()

@@ -19,30 +19,37 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Button.cpp" />
-    <ClCompile Include="FirstLaunch.cpp" />
-    <ClCompile Include="Game.cpp" />
-    <ClCompile Include="Main.cpp" />
-    <ClCompile Include="Manager.cpp" />
-    <ClCompile Include="Menu.cpp" />
-    <ClCompile Include="Room.cpp" />
-    <ClCompile Include="Texture.cpp" />
-    <ClCompile Include="Title.cpp" />
-    <ClCompile Include="Window.cpp" />
-    <ClCompile Include="_Scene.cpp" />
+    <ClInclude Include="include\Button.h" />
+    <ClInclude Include="include\FirstLaunch.h" />
+    <ClInclude Include="include\Game.h" />
+    <ClInclude Include="include\Main.h" />
+    <ClInclude Include="include\Manager.h" />
+    <ClInclude Include="include\Menu.h" />
+    <ClInclude Include="include\Room.h" />
+    <ClInclude Include="include\Texture.h" />
+    <ClInclude Include="include\Title.h" />
+    <ClInclude Include="include\Window.h" />
+    <ClInclude Include="include\_Scene.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Button.h" />
-    <ClInclude Include="FirstLaunch.h" />
-    <ClInclude Include="Game.h" />
-    <ClInclude Include="Main.h" />
-    <ClInclude Include="Manager.h" />
-    <ClInclude Include="Menu.h" />
-    <ClInclude Include="Room.h" />
-    <ClInclude Include="Texture.h" />
-    <ClInclude Include="Title.h" />
-    <ClInclude Include="Window.h" />
-    <ClInclude Include="_Scene.h" />
+    <ClCompile Include="source\Button.cpp" />
+    <ClCompile Include="source\FirstLaunch.cpp" />
+    <ClCompile Include="source\Game.cpp" />
+    <ClCompile Include="source\Main.cpp" />
+    <ClCompile Include="source\Manager.cpp" />
+    <ClCompile Include="source\Menu.cpp" />
+    <ClCompile Include="source\Room.cpp" />
+    <ClCompile Include="source\Texture.cpp" />
+    <ClCompile Include="source\Title.cpp" />
+    <ClCompile Include="source\Window.cpp" />
+    <ClCompile Include="source\_Scene.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\button.png" />
+    <Image Include="resources\buttonActive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="resources\font.ttf" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

@@ -3,7 +3,7 @@
 Title::Title( std::string text , int size )
 {
     this->shadow = int(sqrt(double(size))/1.5);
-    TTF_Font* font = TTF_OpenFont( "font.ttf" , size );
+    TTF_Font* font = TTF_OpenFont( "resources/font.ttf" , size );
     
     const SDL_Color white = {255,255,255};
     const SDL_Color black = {0,0,0};
