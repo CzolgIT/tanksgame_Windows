@@ -1,6 +1,5 @@
 
-.vs/TanksGame/v15/.suo
-.vs/TanksGame/v15/Browse.VC.db
+.vs/*
 *.obj
 *.exe
 *.ilk
