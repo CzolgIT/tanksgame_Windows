@@ -1,0 +1,11 @@
+
+.vs/TanksGame/v15/.suo
+.vs/TanksGame/v15/Browse.VC.db
+*.obj
+*.exe
+*.ilk
+*.log
+*.pdb
+*.tlog
+*.idb
+*.user
