@@ -10,6 +10,9 @@ Game::Game()
     SDL_SetHint( SDL_HINT_RENDER_SCALE_QUALITY, "1" );
     IMG_Init( IMG_INIT_PNG );
     TTF_Init();
+
+	// SDLNet_Init();
+	// Mix_Init(MIX_INIT_MP3);
     
     Window::initialize();
     Texture::loadTextures();

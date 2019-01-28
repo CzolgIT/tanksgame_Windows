@@ -14,7 +14,7 @@ void Window::initialize()
 {
     // creating window and renderer
     Uint32 windowFlags = SDL_WINDOW_SHOWN | SDL_WINDOW_RESIZABLE | SDL_WINDOW_ALLOW_HIGHDPI ;
-    Window::window = SDL_CreateWindow( "TanksGame" , SDL_WINDOWPOS_UNDEFINED , SDL_WINDOWPOS_UNDEFINED , 2000 , 900 , windowFlags );
+    Window::window = SDL_CreateWindow( "TanksGame" , SDL_WINDOWPOS_UNDEFINED , SDL_WINDOWPOS_UNDEFINED , 1000 , 800 , windowFlags );
     Window::renderer = SDL_CreateRenderer( Window::window , -1 , SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC );
 
     // getting resolution
